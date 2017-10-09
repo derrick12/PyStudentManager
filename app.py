@@ -19,8 +19,10 @@ def students_page():
 
 		return redirect(url_for("students_page"))
 
-	return render_template("index.html", students=students)
+	return render_template("index.html", students=students) 
 
 
 if __name__ == "__main__":
 	app.run(debug=True)
+
+#after running this code, copy and paste the address given to your default browser to run the web application
